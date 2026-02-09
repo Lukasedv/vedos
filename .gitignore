@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-electron/
+release/
+backend-dist/
+build/icon.ico
+build/icon.icns
+
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/vedos/__pycache__/
+backend/tests/__pycache__/
+backend/build/
+backend/dist/
+*.pyc
+__pycache__/
+*.egg-info/
+
+# Environment
+.env
+.env.local
+
+# RAW test files (large binary)
+*.ARW
+*.arw
+*.CR2
+*.cr2
+*.NEF
+*.nef
+*.DNG
+*.ORF
+*.RW2
+*.RAF
+
+# Windows Zone.Identifier files
+*:Zone.Identifier
+*:sec.endpointdlp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Package lock (Python)
+backend/uv.lock
